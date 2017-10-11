@@ -1,0 +1,227 @@
+<html>
+<head>
+<title>Oil Paint</title>
+<link rel="stylesheet" type="text/css" href="css/menumaker.css">
+<script type="text/javascript" src="js/menumaker.js"></script>
+<script src="js/jquery-1.11.1.min.js.js"></script>
+<script src="js/cssmenumaker.js"></script>
+<script type="text/javascript">
+    $("#cssmenu").menumaker();
+</script>
+
+<script type="text/javascript">
+$("#cssmenu").menumaker({
+title: "Menu",
+format: "multitoggle",
+breakpoint: 768
+});
+</script>
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+
+h1 {color:#CAFF70; font-size: 70px; font-family:Buxton Sketch;}
+
+p {color:#FFFFFF;}
+
+body {
+background-image:url('black.jpg');
+background-size:100%;
+background-repeat:repeat;
+}
+
+.img {
+    margin-left: 100px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+.wrapper
+{width:90%;height:10%;background-color:#000000;margin-left:auto;margin-right:auto;}
+
+
+.thumbnail {
+	position: relative;
+	float: left;
+	padding: 5px;
+	/*z-index: 0;*/
+}
+
+.thumbnail:hover { 
+	background-color: #e9e9e2;
+	/*z-index: 50;*/
+	color: #335500;
+	text-decoration: none;
+}
+
+.thumbnail span { /*CSS for enlarged image*/
+	position: absolute;
+	background-color: #e5e5e5;
+	padding: 5px;
+	/*left: -1000px;*/
+	border: 1px solid #666;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail span img { /*CSS for enlarged image*/
+	border-width: 0px;
+	/*padding: 2px;*/
+}
+
+.thumbnail:hover span { /*CSS for enlarged image on hover*/
+	visibility: visible; width: 208px;
+	top: 50px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
+	left: 300px;/*position where enlarged image should offset horizontally */
+}
+
+a.thumbnail img { 
+	text-decoration:none;
+	z-index: 50; 
+}
+#cssmenu {
+  background: #000000;
+  border-bottom: 4px solid #238E23;
+  border-left:4px solid #238E23;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  font-size: 12px; 
+}
+
+#cssmenu > ul { *display: inline-block; }
+
+#cssmenu:after, #cssmenu ul:after {
+    content: '';
+    display: block;
+    clear: both; 
+}
+#cssmenu a {
+    background: #000000;
+    color: #CBCBCB;
+    padding: 0 20px; 
+}
+
+#cssmenu ul { text-transform: uppercase; }
+
+    #cssmenu ul ul {
+      border-top: 1px solid #238E23;
+      text-transform: none;
+      min-width: 170px; 
+}
+#cssmenu ul ul a {
+        background: #238E23;
+        color: #FFF;
+        border: 1px solid #238E23;
+        border-top: 1 none;
+        line-height: 150%;
+        padding: 16px 20px; 
+}
+
+#cssmenu ul ul li:last-child > a {
+          border-radius: 0 0 3px 3px;
+          box-shadow: 0 2px 0 #238E23; 
+
+#cssmenu ul ul li:hover > a { background: #238E23; }
+
+#cssmenu ul ul li:last-child:hover > a { border-radius: 0 0 0 3px; }
+
+#cssmenu ul li:hover > a, #cssmenu ul li.active > a {
+      background: #238E23;
+      color: #FFF;
+}
+
+#cssmenu ul li.last ul {
+      left: auto;
+      right: 0; 
+}
+
+#cssmenu ul li.last ul ul {
+        left: auto;
+        right: 99.5%;
+}
+</style></head>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+<tbody><tr>
+<a id="top"> </a>
+<td valign="top" style="background: url('black.jpg') repeat-x scroll 0% 0% transparent;" width="55%">
+	<div align="left" width="auto">
+		<a href="https://www.facebook.com/kuroda.takumi142"><img src="icon.png" border="0" width="180" alt="Chronos" title="Chronos"></a>
+</div>
+</td>
+
+<td valign="top" style="background: url('black.jpg') repeat-x scroll 0% 0% transparent;">
+
+<div id='cssmenu'>
+  <ul>
+     <li class='active'><a href='http://ned.highline.edu/~kuroda_takumi142/final/home.html'>Home</a></li>
+     <li class='active'><a href='http://ned.highline.edu/~kuroda_takumi142/final/about.html'>About me</a></li>
+     <li class='has-sub '><a href='#'>My Gallery</a>
+        <ul>
+           <li class='has-sub '><a href='#'>WATER PAINT</a>
+              <ul>
+                 <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/canson.html'>CANSON</a></li>
+                 <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/special.html'>SPECIAL</a></li>
+              </ul>
+           </li>
+           <li class='has-sub '><a href='#'>ART</a>
+              <ul>
+                 <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/original.html'>ORIGINAL</a></li>
+              </ul>
+           </li>
+	   <li class='active'><a href='http://ned.highline.edu/~kuroda_takumi142/final/oil-paint.html'>OIL PAINT</a>
+        </ul>
+     </li>
+     <li class='has-sub '><a href='#'>Graphic</a>
+        <ul>
+           <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/graphic-design.html'>GRAPHIC DESIGN</a></li>        
+        </ul>
+     </li>
+     <li class='active'><a href='http://ned.highline.edu/~kuroda_takumi142/final/products.html'>Products</a></li>
+     <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/contact.html'>Contact</a></li>
+  </ul>
+</div>
+</td></tr></tbody></table>
+
+<body style ="font-family: 'Segoe Sript'";>
+
+<img src = "title.png" width="1505">
+
+<h1><center>OIL PAINT</center></h1>
+<div class="container">
+      <ul class="nav nav-pills nav-stacked">
+        <li><a class="thumbnail" href="">Picture 1<span><img src="oil1.jpg" alt="vn" width="700"></span></a></li>
+        <li><a class="thumbnail" href="">Picture 2<span><img src="oil2.jpg" alt="vn" height="600"></span></a></li>
+        <li><a class="thumbnail" href="">Picture 3<span><img src="oil3.jpg" alt="vn" width="700"></span></a></li>
+      </ul>
+    </div>
+    <div class="clearfix visible-lg"></div>
+  </div>
+</div>
+</br>
+<div class="wrapper">
+<ul style ="list-style-type:rectangle;color:#FFFFFF; margin-top: 500px;margin-left:100px;margin-right:100px">
+<center><a href="#top">Back to Top</a> 
+<p>  Copyright &copy; 2014 | Tam Bui </p></center>
+</ul>
+</div>
+</body>
+</html>

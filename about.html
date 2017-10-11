@@ -1,0 +1,278 @@
+<html>
+<head>
+<title>About me</title>
+<link rel="stylesheet" type="text/css" href="css/menumaker.css">
+<script type="text/javascript" src="js/menumaker.js"></script>
+<script src="js/jquery-1.11.1.min.js.js"></script>
+<script src="js/cssmenumaker.js"></script>
+<script type="text/javascript">
+    $("#cssmenu").menumaker();
+</script>
+
+<script type="text/javascript">
+$("#cssmenu").menumaker({
+title: "Menu",
+format: "multitoggle",
+breakpoint: 768
+});
+</script>
+
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+<style type="text/css">
+
+h1 {color:#CAFF70; font-size: 70px; font-family:Buxton Sketch;}
+
+p {color:#FFFFFF;}
+
+body {
+background-image:url('black.jpg');
+background-size:100%;
+background-repeat:repeat;
+font-family: 'Tangerine', serif;
+}
+
+.img {
+    margin-left: 100px;
+    padding: 5px;
+    border: 1px solid #238E23;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+.img a:hover img {
+    border:1px solid #238E23;
+}
+
+.wrapper
+{width:90%;height:20%;background-color:#000000;margin-left:auto;margin-right:auto;}
+
+.thumbnail{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top: -400px;
+left: -800px; /*position where enlarged image should offset horizontally */
+
+}
+
+
+.thumbnail1{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail1:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+.thumbnail1 span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail1 span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail1:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top: -400px;
+left: -250px; /*position where enlarged image should offset horizontally */
+
+}
+
+#cssmenu {
+  background: #000000;
+  border-bottom: 4px solid #238E23;
+  border-left:4px solid #238E23;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  font-size: 12px; 
+}
+
+#cssmenu > ul { *display: inline-block; }
+
+#cssmenu:after, #cssmenu ul:after {
+    content: '';
+    display: block;
+    clear: both; 
+}
+#cssmenu a {
+    background: #000000;
+    color: #CBCBCB;
+    padding: 0 20px; 
+}
+
+#cssmenu ul { text-transform: uppercase; }
+
+    #cssmenu ul ul {
+      border-top: 1px solid #238E23;
+      text-transform: none;
+      min-width: 170px; 
+}
+#cssmenu ul ul a {
+        background: #238E23;
+        color: #FFF;
+        border: 1px solid #238E23;
+        border-top: 1 none;
+        line-height: 150%;
+        padding: 16px 20px; 
+}
+
+#cssmenu ul ul li:last-child > a {
+          border-radius: 0 0 3px 3px;
+          box-shadow: 0 2px 0 #238E23; 
+
+#cssmenu ul ul li:hover > a { background: #238E23; }
+
+#cssmenu ul ul li:last-child:hover > a { border-radius: 0 0 0 3px; }
+
+#cssmenu ul li:hover > a, #cssmenu ul li.active > a {
+      background: #238E23;
+      color: #FFF;
+}
+
+#cssmenu ul li.last ul {
+      left: auto;
+      right: 0; 
+}
+
+#cssmenu ul li.last ul ul {
+        left: auto;
+        right: 99.5%;
+}
+</style></head>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+<tbody><tr>
+<a id="top"> </a>
+<td valign="top" style="background: url('black.jpg') repeat-x scroll 0% 0% transparent;" width="55%">
+	<div align="left" width="auto">
+		<a href="https://www.facebook.com/kuroda.takumi142"><img src="icon.png" border="0" width="180" alt="Chronos" title="Chronos"></a>
+</div>
+</td>
+
+<td valign="top" style="background: url('black.jpg') repeat-x scroll 0% 0% transparent;">
+
+<div id='cssmenu'>
+  <ul>
+     <li class='active'><a href='http://ned.highline.edu/~kuroda_takumi142/final/home.html'>Home</a></li>
+     <li class='active'><a href='http://ned.highline.edu/~kuroda_takumi142/final/about.html'>About me</a></li>
+     <li class='has-sub '><a href='#'>My Gallery</a>
+        <ul>
+           <li class='has-sub '><a href='#'>WATER PAINT</a>
+              <ul>
+                 <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/canson.html'>CANSON</a></li>
+                 <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/special.html'>SPECIAL</a></li>
+              </ul>
+           </li>
+           <li class='has-sub '><a href='#'>ART</a>
+              <ul>
+                 <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/original.html'>ORIGINAL</a></li>
+              </ul>
+           </li>
+	   <li class='active'><a href='http://ned.highline.edu/~kuroda_takumi142/final/oil-paint.html'>OIL PAINT</a>
+        </ul>
+     </li>
+     <li class='has-sub '><a href='#'>Graphic</a>
+        <ul>
+           <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/graphic-design.html'>GRAPHIC DESIGN</a></li>        
+        </ul>
+     </li>
+     <li class='active'><a href='http://ned.highline.edu/~kuroda_takumi142/final/products.html'>Products</a></li>
+     <li><a href='http://ned.highline.edu/~kuroda_takumi142/final/contact.html'>Contact</a></li>
+  </ul>
+</div>
+</td></tr></tbody></table>
+
+<body>
+
+<img src = "title.png" width="1505">
+
+<h1><center>ABOUT ME</center></h1>
+<div class="img">
+  <a target="_blank">
+    <img src="me.jpg" alt="Me"  width="650">
+  </a>
+</div>
+<div class="wrapper">
+<ul style ="list-style-type:square;color:#FFFFFF;font-size:27px;text-align:justify; margin-left:700px;margin-right:100px">
+I come from Vietnam where everything can happen  :"3 I always tell myself try new thing. I love to play sport, especially, basketball and swimming. I want to try skydiving someday. My hobby is drawing while listen music. 
+</br>
+</br>
+My major was industrial design before I changed to computer science. That’s a long story about it when I came to America.  But I think it might be good if I can combine technology and art. So I finished my computer science AA, and I sit down, think about my major again. I love to play games, which have a lot of fine art in here. So I have two choice, one is game design, and the other is web design <3
+</br>
+</br>
+You can see a lot of art stuffs I made in this website. 
+</br>
+</br>
+Hope you will enjoy them <3
+</div>
+</ul>
+
+
+<center>
+<img src="maps.jpg" alt="World" usemap="#Map" />
+<map name="Map" id="Map">
+    <a class="thumbnail" href="introduction.php"><area alt="" title="" href="#" shape="poly" coords="84,112,72,123,61,139,
+     63,159,70,166,76,167,88,171,96,169,105,178,112,176,117,189,124,183,136, 
+     175,148,179,155,175,159,178,163,185,165,191,172,191,172,181,172,173,184,
+     161,194,148,214,133,227,125,227,116,213,123,204,124,197,128,192,127,178,
+     133,181,124,167,133,182,120,163,119,167,114,161,112,158,111" /><span><img src="US.jpg" alt="Washington State"><br> Washington State <br>
+	Where I'm staying now!
+   </span></a>
+  
+    <a class="thumbnail1" href="introduction.php"><area alt="" title="" href="#" shape="poly" coords="715,201,722,199,730,204,
+    727,213,737,227,738,239,732,244,729,248,726,244,732,229,720,213,720,207" /><span><img src="vn.jpg" alt="Vietnam"><br> Vietnam <br>
+	My home country <3
+   </span></a>
+    
+</map>
+</center>
+</br>
+<div class="wrapper">
+<ul style ="list-style-type:rectangle;color:#FFFFFF; font-family:Segoe Sript;margin-top: 20px;margin-left:100px;margin-right:100px">
+<center><a href="#top">Back to Top</a> 
+<p>  Copyright &copy; 2014 | Tam Bui </p></center>
+</ul>
+</div>
+</body>
+</html>
